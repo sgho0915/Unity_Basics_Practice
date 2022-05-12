@@ -1,0 +1,10 @@
+Transition
+Has Exit Time : 기존의 실행되고 있던 애니메이션이 끝날 때 까지 기다려줌
+Exit Time : 애니메이션이 얼만큼 끝나고 난 뒤에 상태 전이 할 지(0~1)
+Transition Duration : 상태 전이 하는데 얼마나 걸리게 할 지(0~1)
+
+Animation Clip
+Speed : 애니메이션의 재생 속도
+Multiplier : 파라미터(float)의 수만큼 곱해서 Speed를 증가시킴
+Normalized Time : 파라미터를 이용해 0~1까지 얼만큼 재생됐는지를 반환함
+Cycle Offset : 애니메이션을 어디서부터 시작할 것인지(0~1)
